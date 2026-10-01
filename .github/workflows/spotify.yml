@@ -2,7 +2,7 @@ name: Update Spotify in README
 
 on:
   schedule:
-    - cron: '*/30 * * * *' # Executa a cada 30 minutos
+    - cron: '*/30 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Update Spotify status
-        uses: novatorem/spotify-github-profile@main
+        uses: anuraghazra/spotify-github-profile@master
         env:
           CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
           CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
