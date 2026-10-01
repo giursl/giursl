@@ -1,28 +1,12 @@
-from base64 import b64decode
-
+import os
 from dotenv import find_dotenv, load_dotenv
-from flask import Flask, Response, jsonify, redirect, render_template, request
+from flask import Flask, Response, render_template, request
 
 load_dotenv(find_dotenv())
-
-import json
-import os
-
-import firebase_admin
-from firebase_admin import credentials, firestore
 
 from util import spotify
 
 print("Starting Server")
-
-firebase_config = os.getenv("FIREBASE")
-firebase_dict = json.loads(b64decode(firebase_config))
-
-cred = credentials.Certificate(firebase_dict)
-if not firebase_admin._apps:
-    firebase_admin.initialize_app(cred)
-
-db = firestore.client()
 
 app = Flask(__name__)
 
@@ -33,8 +17,10 @@ def catch_all(path):
     code = request.args.get("code")
 
     if code is None:
-        # TODO: no code
-        return Response("not ok")
+        return Response(
+            "Servidor a funcionar perfeitamente!",
+            status=200,
+        )
 
     token_info = spotify.generate_token(code)
 
@@ -44,6 +30,7 @@ def catch_all(path):
         return Response(f"Token exchange failed: {error} - {desc}", status=400)
 
     access_token = token_info["access_token"]
+    refresh_token = token_info.get("refresh_token", "Não disponível")
 
     profile_resp = spotify.get_user_profile_raw(access_token)
     if profile_resp.status_code != 200 or not profile_resp.text.strip():
@@ -53,17 +40,15 @@ def catch_all(path):
         )
 
     spotify_user = profile_resp.json()
-    user_id = spotify_user["id"]
+    user_id = spotify_user.get("id", "Desconhecido")
 
-    doc_ref = db.collection("users").document(user_id)
-    doc_ref.set(token_info)
-
-    rendered_data = {
-        "uid": user_id,
-        "BASE_URL": spotify.BASE_URL,
-    }
-
-    return render_template("callback.html.j2", **rendered_data)
+    return Response(
+        f"<h2>Autenticação bem-sucedida para o utilizador: {user_id}</h2>"
+        f"<p><b>O teu Refresh Token:</b></p>"
+        f"<textarea style='width:100%;height:100px;'>{refresh_token}</textarea>",
+        status=200,
+        content_type="text/html; charset=utf-8",
+    )
 
 
 if __name__ == "__main__":
