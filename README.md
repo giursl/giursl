@@ -75,11 +75,11 @@
 
 Na visão geral abaixo você encontrará minha experiência de trabalho mais recente:
 
-[<img align="left" height="94px" width="94px" alt="Warpnet" src=")
+<img align="left" height="94px" width="94px" alt="Warpnet" src="assets/Design%20sem%20nome.jpg" />
 
 **IT Intern** \
 [**UNESP**](https://www2.unesp.br/) • Part-time \
-Linguagens & Tecnologias: `Python`, `Django`, `OJS`, `Monday`, `Pacote Office`,\
+Linguagens & Tecnologias: `Python`, `Django`, `OJS`, `Monday`, `Pacote Office`\
 <br/>
 <br/>
 
