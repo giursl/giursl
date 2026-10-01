@@ -1,1 +1,2 @@
-../util/
+def get_firestore_db():
+    return None
