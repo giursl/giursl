@@ -98,6 +98,6 @@ Linguagens & Tecnologias: `Python`, `Django`, `OJS`, `Monday`, `Pacote Office`\
 <br/>
 <div align="center">
   <a href="https://open.spotify.com/intl-pt/track/75ogbQvkIBORm0pYknQNY5" target="_blank">
-    <img src="https://spotify-github-profile.vercel.app/api?username=b3bq8k7nxz15eo4oep0nqgrya&theme=default&animated=true" alt="Spotify Now Playing" />
+    <img src="https://spotify-github-profile-me-b0c2.vercel.app/api?theme=default&animated=true" alt="Spotify Now Playing" />
   </a>
 </div>
