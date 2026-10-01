@@ -184,7 +184,7 @@ Linguagens & Tecnologias: `Python`, `Django`, `OJS`, `Monday`, `Pacote Office`\
         <div xmlns="http://www.w3.org/1999/xhtml" class="container">
           <div class="cover-link">
             <!-- Insira o link da imagem da capa do álbum se preferir -->
-            <img src="https://raw.githubusercontent.com/giursl/giursl/main/assets/sua-capa.jpg" width="80" height="80" class="cover" />
+            <img src="assets/the_boys.jpg" width="80" height="80" class="cover" />
           </div>
           <div class="text-container">
             <div class="artist">Girls' Generation</div>
