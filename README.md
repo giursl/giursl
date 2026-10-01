@@ -101,3 +101,6 @@ Linguagens & Tecnologias: `Python`, `Django`, `OJS`, `Monday`, `Pacote Office`\
     <img src="https://spotify-github-profile-steel-three.vercel.app/?theme=default&animated=true" alt="Spotify Now Playing" />
   </a>
 </div>
+    </div>
+  </foreignObject>
+</svg>
