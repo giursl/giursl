@@ -97,10 +97,7 @@ Linguagens & Tecnologias: `Python`, `Django`, `OJS`, `Monday`, `Pacote Office`\
 ###
 <br/>
 <div align="center">
-  <a href="https://open.spotify.com/intl-pt/track/75ogbQvkIBORm0pYknQNY5" target="_blank">
-    <img src="https://spotify-github-profile-steel-three.vercel.app/?theme=default&animated=true" alt="Spotify Now Playing" />
+  <a href="https://github.com/o-teu-utilizador/nome-do-repositorio">
+    <img src="https://raw.githubusercontent.com/o-teu-utilizador/nome-do-repositorio/master/spotify.svg" alt="Spotify Now Playing"/>
   </a>
 </div>
-    </div>
-  </foreignObject>
-</svg>
