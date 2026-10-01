@@ -96,109 +96,134 @@ Linguagens & Tecnologias: `Python`, `Django`, `OJS`, `Monday`, `Pacote Office`\
 
 ###
 <br/>
-<div align="center">
-  <a href="https://open.spotify.com/intl-pt/track/75ogbQvkIBORm0pYknQNY5?si=f512de0f274f43a3" target="_blank">
-    <svg width="320" height="100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-labelledby="cardTitle" role="img">
-      <title id="cardTitle">Now playing on Spotify</title>
-      <foreignObject width="320" height="100">
-        <style>
-          div {
-            font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
-          }
-          .container {
-            display: flex;
-            align-items: center;
-            border-radius: 10px;
-            padding: 10px 10px;
-          }
-          .cover-link {
-            height: 80px;
-          }
-          .cover {
-            border-radius: 3px;
-            margin-right: 10px;
-          }
-          .text-container {
-            align-self: flex-end;
-            width: 200px;
-            height: 70px;
-          }
-          .artist {
-            color: #434343;
-            font-weight: 500;
-            font-size: 16px;
-            text-align: center;
-            margin-bottom: 3px;
-          }
-          .song {
-            color: #999;
-            font-size: 15px;
-            text-align: center;
-            margin-bottom: 28px;
-          }
-          @media (prefers-color-scheme: light) {
-            .artist { color: #434343; }
-            .song { color: #999; }
-          }
-          @media (prefers-color-scheme: dark) {
-            .artist { color: #b9b9b9; }
-            .song { color: #999; }
-          }
-          .song-container {
-            overflow: hidden;
-            white-space: nowrap;
-          }
-          .song-container::before {
-            content: '\00a0';
-          }
-          .scrolling {
-            animation: marquee 8s linear infinite;
-            display: inline-block;
-            padding-right: 20px;
-          }
-          @keyframes marquee {
-            from { transform: translateX(0); }
-            to { transform: translateX(-100%); }
-          }
-          #bars {
-            position: absolute;
-            height: 14px;
-            width: 200px;
-            overflow: hidden;
-            margin: -14px 0 0 0px;
-          }
-          .bar {
-            background: #006eff;
-            bottom: 1px;
-            height: 3px;
-            position: absolute;
-            width: 2px;
-            animation: sound 0ms -800ms linear infinite alternate;
-          }
-          @keyframes sound {
-            0% { opacity: .35; height: 3px; }
-            100% { opacity: 1; height: 14px; }
-          }
-          .bar:nth-child(1)  { left: 1px; animation-duration: 450ms; }.bar:nth-child(2)  { left: 5px; animation-duration: 417ms; }.bar:nth-child(3)  { left: 9px; animation-duration: 373ms; }.bar:nth-child(4)  { left: 13px; animation-duration: 378ms; }.bar:nth-child(5)  { left: 17px; animation-duration: 359ms; }.bar:nth-child(6)  { left: 21px; animation-duration: 472ms; }.bar:nth-child(7)  { left: 25px; animation-duration: 410ms; }.bar:nth-child(8)  { left: 29px; animation-duration: 459ms; }.bar:nth-child(9)  { left: 33px; animation-duration: 463ms; }.bar:nth-child(10) { left: 37px; animation-duration: 428ms; }.bar:nth-child(11) { left: 41px; animation-duration: 442ms; }.bar:nth-child(12) { left: 45px; animation-duration: 439ms; }.bar:nth-child(13) { left: 49px; animation-duration: 355ms; }.bar:nth-child(14) { left: 53px; animation-duration: 472ms; }.bar:nth-child(15) { left: 57px; animation-duration: 465ms; }.bar:nth-child(16) { left: 61px; animation-duration: 493ms; }.bar:nth-child(17) { left: 65px; animation-duration: 353ms; }.bar:nth-child(18) { left: 69px; animation-duration: 490ms; }.bar:nth-child(19) { left: 73px; animation-duration: 499ms; }.bar:nth-child(20) { left: 77px; animation-duration: 386ms; }.bar:nth-child(21) { left: 81px; animation-duration: 424ms; }.bar:nth-child(22) { left: 85px; animation-duration: 355ms; }.bar:nth-child(23) { left: 89px; animation-duration: 475ms; }.bar:nth-child(24) { left: 93px; animation-duration: 480ms; }.bar:nth-child(25) { left: 97px; animation-duration: 451ms; }.bar:nth-child(26) { left: 101px; animation-duration: 452ms; }.bar:nth-child(27) { left: 105px; animation-duration: 439ms; }.bar:nth-child(28) { left: 109px; animation-duration: 420ms; }.bar:nth-child(29) { left: 113px; animation-duration: 462ms; }.bar:nth-child(30) { left: 117px; animation-duration: 395ms; }
-        </style>
-        <div xmlns="http://www.w3.org/1999/xhtml" class="container">
-          <div class="cover-link">
-            <!-- Insira o link da imagem da capa do álbum se preferir -->
-            <img src="assets/the_boys.jpg" width="80" height="80" class="cover" />
-          </div>
-          <div class="text-container">
-            <div class="artist">Girls' Generation</div>
-            <div class="song-container">
-              <div class="song scrolling">Trick</div>
-              <div class="song scrolling" aria-hidden="true">Trick</div>
-              <div class="song scrolling" aria-hidden="true">Trick</div>
-            </div>
-            <div id='bars'>
-              <div class='bar'></div><div class='bar'></div><div class='bar'></div><div class='bar'></div><div class='bar'></div><div class='bar'></div><div class='bar'></div><div class='bar'></div><div class='bar'></div><div class='bar'></div><div class='bar'></div><div class='bar'></div><div class='bar'></div><div class='bar'></div><div class='bar'></div><div class='bar'></div><div class='bar'></div><div class='bar'></div><div class='bar'></div><div class='bar'></div><div class='bar'></div><div class='bar'></div><div class='bar'></div><div class='bar'></div><div class='bar'></div><div class='bar'></div><div class='bar'></div><div class='bar'></div><div class='bar'></div><div class='bar'></div>
-            </div>
+<svg width="460" height="152" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="460" height="152">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      .spotify-embed-container {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+        background-color: #181818;
+        border-radius: 8px;
+        padding: 16px;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        width: 460px;
+        height: 152px;
+      }
+
+      .album-cover-container {
+        flex-shrink: 0;
+        width: 120px;
+        height: 120px;
+        border-radius: 4px;
+        overflow: hidden;
+        background-color: #282828;
+      }
+
+      .album-cover {
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      }
+
+      .track-info-container {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 120px;
+      }
+
+      .track-details {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .track-name {
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24px;
+        margin-bottom: 4px;
+      }
+
+      .artist-name {
+        color: #b3b3b3;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+      }
+
+      .spotify-logo-container {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        margin-top: 8px;
+      }
+
+      .status-text {
+        font-size: 11px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        color: #1db954;
+      }
+
+      .progress-bar-bg {
+        width: 100%;
+        height: 4px;
+        background-color: #404040;
+        border-radius: 2px;
+        overflow: hidden;
+        margin-bottom: 6px;
+      }
+
+      .progress-bar-fill {
+        height: 100%;
+        background-color: #1db954;
+        width: 45%;
+      }
+
+      .progress-times {
+        display: flex;
+        justify-content: space-between;
+        color: #a7a7a7;
+        font-size: 11px;
+      }
+    </style>
+    <div xmlns="http://www.w3.org/1999/xhtml" class="spotify-embed-container">
+      <div class="album-cover-container">
+        <div class="album-cover"></div>
+      </div>
+      <div class="track-info-container">
+        <div class="track-details">
+          <div class="track-name">Your Favorite Song</div>
+          <div class="artist-name">Your Favorite Artist</div>
+          <div class="spotify-logo-container">
+            <svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path fill="#1db954" d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/>
+            </svg>
+            <span class="status-text">Now playing</span>
           </div>
         </div>
-      </foreignObject>
-    </svg>
-  </a>
-</div>
+        <div>
+          <div class="progress-bar-bg">
+            <div class="progress-bar-fill"></div>
+          </div>
+          <div class="progress-times">
+            <span>1:23</span>
+            <span>-1:45</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
