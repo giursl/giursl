@@ -24,7 +24,7 @@ Na visão geral abaixo você encontrará minha experiência de trabalho mais rec
 Linguagens & Tecnologias: `Python`, `Django`, `OJS`, `Monday`, `Pacote Office`\
 <br/>
 <br/>
-
+<br/>
 ###
 
 <div data-importer="techs" align="left">
