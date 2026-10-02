@@ -84,20 +84,14 @@ Linguagens & Tecnologias: `Python`, `Django`, `OJS`, `Monday`, `Pacote Office`\
 ###
 
 
-<div data-importer="socials" align="left">
-  <a href="https://www.linkedin.com/in/giulialopes04/" target="_blank">
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
-</div>
-<br>
-
-<div data-importer="image" align="center">
-  <img data-importer="image" height="400" src="https://media2.giphy.com/media/Zy1DpcdoCqSt06oeoa/giphy.gif"  />
-</div>
-
-###
-<br/>
-<div align="center">
-  <a href="https://github.com/giursl/spotify_new">
-    <img src="https://raw.githubusercontent.com/giursl/spotify_new/master/spotify.svg" alt="Spotify Now Playing"/>
-  </a>
-</div>
+<p align="center">
+  <span style="display: inline-block; vertical-align: middle;">
+    <a href="https://github.com/giursl/spotify_new">
+      <img src="https://raw.githubusercontent.com/giursl/spotify_new/master/spotify.svg" alt="Spotify Now Playing" width="480" style="border: none;" />
+    </a>
+  </span>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <span style="display: inline-block; vertical-align: middle;">
+    <img src="https://media2.giphy.com/media/Zy1DpcdoCqSt06oeoa/giphy.gif" alt="GIF" width="180" style="border: none;" />
+  </span>
+</p>
