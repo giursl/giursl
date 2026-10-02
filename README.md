@@ -25,6 +25,7 @@ Linguagens & Tecnologias: `Python`, `Django`, `OJS`, `Monday`, `Pacote Office`\
 <br/>
 <br/>
 <br/>
+<br/>
 ###
 
 <div data-importer="techs" align="left">
